@@ -1,0 +1,132 @@
+<!doctype html>
+
+
+<!doctype html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Develpment</title>
+</head>
+
+
+<body>
+  <nav>
+    <div class="logo">
+      <a href="home.html">My Name</a>
+    </div>
+
+    <ul class="nav-links">
+      <li>
+        <a href="home.html">Home</a>
+      </li>
+      <li>
+        <a href="projects.html" target='blank'>Projects</a>
+      </li>
+      <li>
+        <a href="about.html" target='blank'>About</a>
+      </li>
+      <li>
+        <a href="https://drive.google.com/file/d/1Z07X6bMymugfXUFcCGAGKUoqc38TVInO/view?usp=sharing" target="blank">Resume</a>
+      </li>
+
+    </ul>
+
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+
+  <div class='outer-container'>
+    <div class='title' id=title>
+      Development
+    </div>
+    <img class='image' src="logo.png" style='width: 80%; height: auto;'>
+    <div class=container>
+      <div class='subtitle'>
+        Context
+      </div>
+      <div class='body-text'>
+        The goal of this project was to create an application using react. React is a front end, JavaScript library that
+        is used for
+        building user interfaces or components of these. The interface had to contain two filtering and one sorting
+        mechanism, an aggregator section,
+        and a minimum of 12 items displayed. Each item had to contain a picture of the product.
+        <br>
+        <br>
+
+        The interface I chose to create was a candle shop called Candle Co. This page consists of two main sections, the
+        home page (pictured above) and the product
+        display (pictured below). Moreover, the application displays 14 candles, each of which represents a city from
+        around the world. Some of these are New York, Paris, Tokyo, and Helsinki.
+      </div>
+      <img class='image' src="candleco.png" style='width: 80%; height: auto;'>
+      <div class='subtitle'>
+        About the Interface
+      </div>
+
+
+      <div class='body-text'>
+        This user interface consists of 2 filtering options and one sorting option. All 3 of these are under the title
+        'Filters'. The user can filter the candles by scent or by size, or they can sort the candles
+        by their price being from lowest to highest or vice versa.
+        <br>
+        <br>
+        Furthermore, below the Filters, there is the section where the products are displayed. The candles are aligned
+        in three rows.
+        On the upper left part of the display is the shopping cart. This has the label 'Shopping Cart', and it displays
+        the sum of the Total Price of the items in the cart.
+        When an item is added to the cart, this item is displayed in the cart and denoted by a lavender background
+        instead of white like in the display. Additionally, when an item is added to the cart,
+        three other buttons appear: a '+' that adds one more of this same item to the cart, a '-' that removes one of
+        this item from the cart, and 'Remove All' that clears the cart.
+        <br>
+        <br>
+        When an item is added to the shopping cart, and the sorting filters are applies, the interface looks like this:
+      </div>
+      <img src="sort.png" style="width: 80%; height: auto;">
+
+      <div class='subtitle'>
+        Links
+      </div>
+
+      <div class='body-text'>
+        Below you can find the link to the GitHub Repository where the code is available, and the link to the interface,
+        Candle Co.
+        <br>
+        <br>
+
+        <button onclick="location.href='https://github.com/nicolecid/candle.git'">
+          GitHub
+        </button>
+        <button onclick="location.href='https://glacial-atoll-42873.herokuapp.com/#full'">
+          Candle Co
+        </button>
+      </div>
+
+
+      <div class='subtitle'>
+        Conclusion and Take Aways
+      </div>
+      <div class='body-text'>
+        In conclusion, it was very rewarding using React to create this interface.
+        React faciliated the implementation of this interface.
+        Moreover, this project challenged me to create features I had not implemented in the past.
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="footer">Made by ___ © 2020</footer>
+  <br>
+  <script src="app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,453 @@
+<!doctype html>
+
+
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Develpment</title>
+</head>
+
+
+<body>
+    <nav>
+        <div class="logo">
+            <a href="home.html">My Name</a>
+        </div>
+
+        <ul class="nav-links">
+            <li>
+                <a href="home.html">Home</a>
+            </li>
+            <li>
+                <a href="projects.html" target='blank'>Projects</a>
+            </li>
+            <li>
+                <a href="about.html" target='blank'>About</a>
+            </li>
+            <li>
+                <a href="https://drive.google.com/file/d/1Z07X6bMymugfXUFcCGAGKUoqc38TVInO/view?usp=sharing" target="blank">Resume</a>
+            </li>
+        </ul>
+
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <div class='outer-container'>
+        <div class='title' id=title>
+            Iterative Design
+        </div>
+        <img class='image' src="iterative.png" style='width: 70%; height: auto;'>
+        <div class=container>
+            <div class='subtitle'>
+                Context
+            </div>
+            <div class='body-text'>
+                If someone told you to create an educational app for children, what would spring to mind? How would you
+                make an app both educational and fun? Images? Bright colors? Exploding science experiments? Dinosaurs?
+
+                This is what my teammates and I were trying to explore. For this project, we had to choose a startup and
+                design a user interface (UI) for that startup without looking at their existing UI. The only thing we
+                could work off of was their concept.
+
+                The startup we chose is
+                <a href="https://www.tappityapp.com/">Tappity</a>
+                , an app for kids which teaches 100+ science topics with experiments and
+                games. The app is specifically for children aged 4-10 and explores topics, such as space, animals, the
+                human body etc.
+
+                In this article, we're going to walk you through our brainstorming, how we created an interactive
+                prototype, and an analysis of our results after conducting user testing.
+
+                My teammates were Deniz Ozturk, Sharon Alexander, and Mariana Alvaro
+            </div>
+
+
+
+            <div class='subtitle'>
+                sketching + wireframing
+            </div>
+            <div class='subsubtitle bold'>
+
+                Sketches
+            </div>
+            <img class='image' src="sketches1.png" style='width: 110%; height: auto;'>
+            <img class='image' src="sketches2.png" style='width: 110%; height: auto;'>
+
+            <div class='body-text'>
+                Before creating low-fidelity wireframes, we discussed our individual sketches and came to the following
+                decisions:
+            </div>
+            <div class='body-text'>
+                <ul>
+                    <li>
+                        We thought that it would be fun and engaging for kids to let them create and customize their own
+                        avatar. Instead of a human avatar, we wanted a more interesting and gender-neutral creature.
+                        Very quickly it became crystal clear - it had to be a dinosaur! We then decided that for
+                        consistency, the app's icon should be a dinosaur as well.
+
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        We decided to cheer up our login page with a "knock, knock, who's there" joke which prompts the
+                        user to choose between logging in as the parent or the child
+
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        We knew that we wanted to split the homepage into three categories: games, experiments, and
+                        educational videos. However, we spent a lot of time deciding which word to use for educational
+                        videos. We thought that "learning" or "classroom" would put off children so we went with
+                        "Discover".
+
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        Initially, we planned to have a "Games" button which would lead directly to a path made up of
+                        individual games across different themes e.g. animals, space, machines etc. Once a child
+                        completes all games for a specific theme, they would arrive at an endpoint where they would
+                        collect some sort of gear for their avatar. We believe this would incentivize children to
+                        continue playing and we used the same logic for educational videos and experiments.
+
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        Later on, we realized that it would be more intuititve and organized to divide the games into
+                        topics and then create a topics page before navigating the user to the games path. For example,
+                        if the user clicks on "Animals", it would take them to a path made up of only animal games. This
+                        would also allow kids to choose which games they want to play.
+
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class='subsubtitle bold'>
+
+                Low-Fidelity wireframes
+            </div>
+            <div class='body-text'>
+                After combining our ideas from our sketches, we created low-fidelity wireframes using Balsamiq
+            </div>
+
+            <img class='image' src="lowfi1.png" style='width: 110%; height: auto;'>
+            <img class='image' src="lowfi2.png" style='width: 110%; height: auto;'>
+
+
+
+
+            <div class='subtitle'>
+                Interactive Mockup
+            </div>
+
+
+            <div class='body-text'>
+                After completing our wireframes, it was time to turn our ideas into a high-fidelity interactive mockup.
+                And here you have it friends - Tappity App.
+                <br>
+                Click on the arrows in the top-right corner for full screen.
+            </div>
+
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
+                src="https://www.figma.com/embed?embed_host=share&amp;url=https%3A%2F%2Fwww.figma.com%2Fproto%2FAch6228ozR4phlQcyoZInp%2FUntitled%3Fnode-id%3D87%253A236%26scaling%3Dscale-down"
+                allowfullscreen=""></iframe>
+
+            <div class='subsubtitle bold'>
+
+                Critique Feedback
+            </div>
+
+            <div class='body-text'>
+                The mockup you see above is our final draft after receiving feedback from Nikolas Klein, an industry
+                Product Designer, and other students in our UI/UX class at Brown. The following is a summary of the
+                critique:
+                <ul>
+                    <li>
+                        Make it more clear which is the parent dinosaur and which is the child and use this parent-child relationship throughout the app. Originally, on page 1 (login page), both the parent and child dinosaurs were green. We later changed the parent to orange and for consistency, we also made this change on page 8 and 9 to the astronaut and safari tourguide dinosaurs. This makes it seem as if the child's parent is cheering them on by the "You are doing great!" speech bubble on pages 8 and 9.
+
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        In the game path, highlight where the dinosaur is standing to make it more clear as to which game the child is meant to complete. We decided to highlight the game icon with a drop shadow.
+
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        Overall, Nikolas and our peers liked the choice of colors and graphics and said that the app was easy to navigate.
+
+                    </li>
+                </ul>
+                The changes we made between before the critique and the final mockup above are displayed below:
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+            <img class='image' src="banda.png" style='width: 110%; height: auto;'>
+
+
+
+            <div class='subtitle'>
+                User Testing
+            </div>
+            <div class='body-text'>
+                After creating our interactive high-fidelity mockup, how do we know if it's actually user friendly? This is where user testing comes into play. We submitted our mockup to a remote user testing service
+                <a href="https://www.usertesting.com/">(usertesting.com)</a>
+                and had 3 users test our interface prototype. We gave all 3 users the following tasks and scenario:
+            </div>
+
+            <div class='subsubtitle bold'>
+                Scenario
+            </div>
+
+            <div class='body-text'>
+                Imagine you're a child and you want to play a "Space" game and then an "Animals" game. Keep in mind that this is a mockup made with prototyping software and not a real website. However, like a real application, you will be able to interact with elements on each page to help you achieve your goal. Since it's a prototype, you won't actually be able to play a game but they would be included in the real application.
+            </div>
+
+            <div class='subsubtitle bold'>
+                Task
+            </div>
+
+            <div class='body-text'>
+                <ul>
+                    <li>
+                        Play a "Space" game and then an "Animals" game.
+
+                    </li>
+                </ul>
+            </div>
+
+            <div class='subsubtitle bold'>
+                Subtasks
+            </div>
+
+            <div class='body-text'>
+                <li>
+                    Without leaving the homepage, what are your initial impressions of the website? Explain your answer.
+                </li>
+                <li>
+                    Find where you can play a "Space" game.
+                </li>
+                <li>
+                    Now, find where you can play an "Animals" game
+                </li>
+                <li>
+                    What 3 words would you use to describe this application? Explain your answer.
+                </li>
+            </div>
+
+            <div class='subsubtitle bold'>
+                Results
+            </div>
+            <div class='body-text'>
+                NOTE: when creating our test on usertesting.com, we chose tablet as the device that users should use. However, we were unaware that despite specifying this, users without tablets would still receive this test. This caused formatting issues for 2/3 of our test users, since they were trying to open up the prototype on a computer/mobile instead of a tablet. If we were to conduct this test again, we would either specify that using a tablet is highly recommended in the scenario or change our prototype so that it is responsive to different devices.
+            </div>
+            <div class='body-text bold'>
+                Task 1: without leaving the homepage, what are your initial impressions of the website?
+            </div>
+            <div class='body-text'>
+                <ul>
+                    <li>
+                        "educational game"
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        "easy to operate"
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        "big pictures"
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        "obvious and clear"
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        “I don’t really consider this a homepage”
+                    </li>
+                </ul>
+                <video width="480" height="270" controls="">
+                    <source src="gif1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+            </div>
+
+            <div class='body-text bold'>
+                Task 2: find where you can play a "space" game
+            </div>
+            <div class='body-text'>
+                Time to Completion by user: 
+                <br>
+                <ul>
+                    <li>
+                        User 1: 0:00 (due to formatting issues, this user could not complete the task)
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        User 2: 0:59
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        User 3: 1:23
+                    </li>
+                </ul>
+                
+            </div>
+
+            <div class='body-text bold'>
+                Task 3: find where you can plan an "animals" game
+            </div>
+            <div class='body-text'>
+                
+                <ul>
+                    <li>
+                        User 1: 0:00 (due to formatting issues, this user could not complete the task)
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        User 2: 0:15
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        User 3: 0:33
+                    </li>
+                </ul>
+                
+                <video width="480" height="270" controls="">
+                    <source src="gif2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+            </div>
+
+            <div class='subsubtitle bold'>
+                Task 4: what 3 words would you use to describe this app?
+            </div>
+                
+                <img class='image' src="words.png" style='width: 90%; height: auto;'>
+
+
+                <div class='subsubtitle bold'>
+                    Post User Test Questions
+                </div>
+                <div class='body-text'>
+                    For each user, we included post-test questions about their experience as a whole. Below is a summary of each question:
+                </div>
+                <div class='body-text bold'>
+                    What frustrated you most about this site?
+                  </div>
+                  <div class='body-text'>
+                    <ul>
+                      User 1: N/A (formatting issues prevented this user from fully exploring all of our pages)
+                    </ul>
+                    <ul>
+                      User 2: no answer
+                    </ul>
+                    <ul>
+                      User 3: formatting issues (user opened prototype on mobile instead of tablet)
+                    </ul>
+                  </div>
+
+                  <div class='body-text bold'>
+                    If you had a magic wand, how would you improve this site?
+                  </div>
+                  <div class='body-text'>
+                    <ul>
+                      User 1: option to personalize name/avatar (note: we did not include this in our prototype but that was our intention for the real app)
+                    </ul>
+                    <ul>
+                      User 2: no answer
+                    </ul>
+                    <ul>
+                      User 3: make app responsive to different devices
+                    </ul>
+                  </div>
+
+                  <div class='body-text bold'>
+                    What did you like about the site?
+                  </div>
+                  <div class='body-text'>
+                    <ul>
+                      User 1: use of cartoons makes it easy for kids to recognize category, especially if they cannot read well yet. Also liked how buttons were diffent colors
+                    </ul>
+                    <ul>
+                      User 2: no answer
+                    </ul>
+                    <ul>
+                      User 3: color, good usability, big pictures, cute animals, lots of playing options
+                    </ul>
+                  </div>
+
+                  <div class='body-text bold'>
+                    How likely are you to recommend this site to a friend or colleague (0=Not at all likely, and 10=Very Likely)?                  </div>
+                  <div class='body-text'>
+                    <ul>
+                      User 1: 8
+                    </ul>
+                    <ul>
+                      User 2: no answer
+                    </ul>
+                    <ul>
+                      User 3: 8
+                    </ul>
+                  </div>
+
+                  <div class='subsubtitle bold'>
+                    User Test Videos
+                </div>
+                <div class='body-text'>
+                    If you would like to watch the user testing videos in their entirety, the links are provided below.
+                </div>
+                <li>
+                    <a href="https://drive.google.com/file/d/1uyJyGDK9KvYy0fhvMG4aW3zHgE9LrRwz/view?usp=sharing"> user 1</a>
+                </li>
+                <li> <a href="https://drive.google.com/file/d/1xKunwW8YpZs7uYCRibyG2hOh9knM5RkT/view?usp=sharing">user 2 </a></li>
+                <li>
+                    <a href="https://drive.google.com/file/d/1hWr4bTVxFYeJUDz4DdkcFF5u-gdY2SwU/view?usp=sharing"> user 3</a>
+                </li>
+
+
+                <div class='subsubtitle bold'>
+                    Sources
+                </div>
+
+
+                <div class='body-text'>
+                    You can find our list of sources
+                    <a href="https://docs.google.com/document/d/1zKCqRZuVe-2p_VReWIA8UdpcakEgyAnBFuP-ct-9iqI/edit?usp=sharing">
+                        here</a>
+                </div>
+
+
+
+            
+    <footer class="footer">Made by ___ © 2020</footer>
+    <br>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
